@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "git+ssh://git@github.com:michaelyuen/ui.git"
 	},
-	"author": "Michael Yuen <michael.yuen@ey.com>",
+	"author": "Michael Yuen <michaelclaytonyuen@gmail.com>",
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",

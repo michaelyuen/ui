@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'my-root',
+	selector: 'mcy-root',
 	templateUrl: './app.component.html'
 })
 export class AppComponent {

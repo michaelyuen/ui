@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-	selector: 'my-icon',
+	selector: 'mcy-icon',
 	template: `
 		<mat-icon>
 			<ng-content></ng-content>
