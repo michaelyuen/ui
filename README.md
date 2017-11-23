@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/michaelyuen/ui.svg?branch=master)](https://travis-ci.org/michaelyuen/ui)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 # Michael Yuen's UI Component Library
