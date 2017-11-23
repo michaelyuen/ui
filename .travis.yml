@@ -5,6 +5,3 @@ before_install:
     - export CHROME_BIN=chromium-browser
     - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
     - xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
-cache:
-    directories:
-        - "node_modules"
