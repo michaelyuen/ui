@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatIconModule } from '@angular/material';
 
-import { IconComponent } from './icon.component';
+import { McyIconComponent } from './icon.component';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		MatIconModule
 	],
-	declarations: [IconComponent],
-	exports: [IconComponent]
+	declarations: [McyIconComponent],
+	exports: [McyIconComponent]
 })
-export class IconModule { }
+export class McyIconModule { }

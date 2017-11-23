@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 		</mat-icon>
 	`
 })
-export class IconComponent implements OnInit {
+export class McyIconComponent implements OnInit {
 
 	constructor() { }
 
