@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { IconModule } from './components/icon/icon.module';
+import { McyIconModule } from './components/icon/icon.module';
 
 @NgModule({
 	declarations: [
@@ -10,7 +10,7 @@ import { IconModule } from './components/icon/icon.module';
 	],
 	imports: [
 		BrowserModule,
-		IconModule
+		McyIconModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
