@@ -1,8 +1,11 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { McyIconModule } from './components/icon/icon.module';
+
 describe('AppComponent', () => {
 	beforeEach(async(() => {
 		TestBed.configureTestingModule({
+			imports: [ McyIconModule ],
 			declarations: [
 				AppComponent
 			],
