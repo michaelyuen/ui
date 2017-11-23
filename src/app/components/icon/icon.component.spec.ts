@@ -1,20 +1,22 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IconComponent } from './icon.component';
+import { McyIconComponent } from './icon.component';
+import { MatIconModule } from '@angular/material';
 
 describe('IconComponent', () => {
-	let component: IconComponent;
-	let fixture: ComponentFixture<IconComponent>;
+	let component: McyIconComponent;
+	let fixture: ComponentFixture<McyIconComponent>;
 
 	beforeEach(async(() => {
 		TestBed.configureTestingModule({
-			declarations: [ IconComponent ]
+			imports: [ MatIconModule ],
+			declarations: [ McyIconComponent ]
 		})
 		.compileComponents();
 	}));
 
 	beforeEach(() => {
-		fixture = TestBed.createComponent(IconComponent);
+		fixture = TestBed.createComponent(McyIconComponent);
 		component = fixture.componentInstance;
 		fixture.detectChanges();
 	});
